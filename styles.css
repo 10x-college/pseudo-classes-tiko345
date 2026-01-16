@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+.logo span:nth-child(1){
+   color: rgb(3, 205, 255);
+}
+
+.logo span:nth-child(2){
+    color:rgb(217, 187, 68);
+}
+
+.logo span:nth-child(3){
+    color:rgb(11, 85, 25);
+}
+
+.logo span{
+    font-size: 45px;
+    font-weight: 700;
+    
+}
+
+.logo{
+    display: inline-block;
+    padding-right: 110px;
+    height: 58px;
+}
+
+.searchbar{
+    display: inline-block;
+    height: 58px;
+    width: 350px;
+    border-radius: 10px;
+    padding-left: 20px;
+    background-color:#ECF3F5;
+    border: #ECF3F5;
+
+}
+
+.date{
+    padding-left: 300px;
+    padding-right: 10px;
+    font-size: 15px;
+}
+.add-table-btn{
+    display: inline-block;
+    height: 50px;
+    width: 125px;
+    border-radius: 10px;
+    background-color: #B1CED4;
+    border: #B1CED4;
+}
+
+.header{
+    height: 77px;
+    padding-top: 20px;
+    border: 1px solid #ECEDED;
+}
+
+.menu-card{
+    display: inline-block;
+    padding-right: 20px;
+    padding-top: 25px;
+}
+
+.dish-image img{
+   width: 200px;
+    height: 140px;
+    border-radius: 10px 10px 0px 0px;
+}
+.dish-image {
+    height: 140px;
+}
+
+.dish-title{
+    height: 71px;
+    background-color:#D8E6E9;
+    border-radius: 0px 0px 10px 10px;
+    font-size: 17px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 5px;
+    font-weight: 500;
+}
+.main{
+    padding-left: 140px;
+    padding-top: 40px;
+}
+
+.footer {
+    padding-left: 120px;
+    padding-bottom: 100px;
+}
+
+.footer-cont{
+    height: 100px; 
+    width: 920px;
+    background-color:  #EAF0F0;
+}
+.menu-filter{
+    height: 58px;
+    width: 160px;
+    margin: 15px 40px 0px 15px; 
+    background-color: #D9D9D9;
+    border:#D9D9D9;
+    border-radius: 10px;
+    color:#A9A9A9;
+    
+}
+
+.starter{
+    background-color: #4A5C2F;
+    color:white;
+
+}
+
+.dish-title::after{
+    content:"CATEGORY:";
+    display: block;
+    padding-top: 20px;
+    padding-left: 8px;
+    font-size: 12px;
+    text-align: left;
+}
+
+.searchbar:hover{
+    height: 70px;
+    width: 400px;
+}
+
+.add-table-btn:hover{
+    height: 60px;
+    width: 140px;
+    background-color: rgb(34, 2, 28);
+    color:#B1CED4;
+}
+
+.menu-card:hover{
+    transform: scale(1.25);
+}
+
+.menu-filter:hover{
+   transform: scale(1.1);
+   background-color: #4A5C2F;
+   color: white;
+}
+
+
