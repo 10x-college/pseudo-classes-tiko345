@@ -107,3 +107,7 @@
 ✔️ არ არსებობს დუბლირებული ID-ები
 
 ✔️ README.md ფაილში დამატებულია ნამუშევრის სქრინშოთი
+
+
+![Dsign Preview](./assets/preview.png)
+![Dsign Preview](./assets/preview_.png)
